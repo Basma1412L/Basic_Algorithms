@@ -1,0 +1,5 @@
+To find all the suffixes I created two functions. The find functiond find all the suffixes of the given letter then the all_suffices
+function will recurse on all the suffixes resulted from find and keep appending the suffixes when word is completed
+
+complexity of find is o(n)
+complextity of allsuffixes is o(nk) where k is the number of children

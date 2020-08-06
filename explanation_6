@@ -1,0 +1,3 @@
+I made two variables max and min and by one traversal through the array the max will be assigned the maximum value by comparing itself to any bigger value than it and the opposite for the min variable
+at the end i return a tuple contains both values
+complexity is o(n) and need ine traversal only

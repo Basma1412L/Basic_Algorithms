@@ -1,0 +1,3 @@
+I modified the basic binary search algorithm and instead of searching for a specific value I made the search for the sqrt of the number
+I created approxSqrt method to check the result rather than checking the power 2 of the number because it won't result in correct answers in case on non compete square.
+The complecity is o(logn)

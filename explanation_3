@@ -1,0 +1,5 @@
+To make the sum the maximum I noticed that the difference between the 2 numbers in the same level is maximum 1
+so I used merge sort because its complexity is o(nlogn) then i passed on the number if its odd i will use the first digit for the the extra level in the first number
+then for the equal digits i will take the maximum for the first number then the post one to the second number and so on
+
+the complexity is o(nlogn) for the sorting and o(n) for forming the numbers so toal= o(nlogn)

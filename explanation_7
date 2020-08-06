@@ -1,0 +1,13 @@
+The RouteTrieNode is similar to the trienode but instead of the letters it adds words
+the insert method create new nodes with the words values and add the children array of the trie node.
+
+The Roottrie is initiated by creating a root whisch is a RouteTrieNode
+It inserts by hecking if the node exists or not and at the end it adds the handler
+for the find method it checks all the children of the root and  return the handler that exists at the end node
+
+The Router class makes use of the previous classes for adding handlers.
+whenever a new handler is added first is splited up using the "/" then it is passed to the insert function of the RootTrie
+The lookup method also splits the route first the pass it to  the find method in the RooTTrie
+
+
+Complexity of adding handler or looking up are both o(n)

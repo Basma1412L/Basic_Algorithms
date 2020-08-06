@@ -1,0 +1,3 @@
+I used binary search to search for the element where the sorting is array
+once I found this element I use the basic binary search to search for the element
+complexity is: o(2*logn)= o(logn)

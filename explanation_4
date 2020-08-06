@@ -1,0 +1,6 @@
+the one won't be needed to move. I used three indexes: main index,  left  one for the zeros and right one  for the twos
+moving on the array if the integer is 1 only the main index is gonna increase,
+if the integer is 0 main index and left index are increasing and the values at both indexes are switching
+if the integer is 2 then the right index will be decreasing  and the values of the main index and right index are switching
+
+complexity is o(n)
